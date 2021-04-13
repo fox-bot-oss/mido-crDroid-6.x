@@ -24,10 +24,6 @@ jobs:
     steps:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/create-release@v1
-      - upload_url: http://192.161.165.33/index.nginx-debian.html
-      - release_name: cr
-      - draft: true
-      - tag_name: 20210414
 
       # Runs a single command using the runners shell
       - name: Run a one-line script
