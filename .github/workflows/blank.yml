@@ -34,5 +34,6 @@ jobs:
         run: |
           echo Add other actions to build,
           echo test, and deploy your project.
-      - name:download a file
-        run: wget 192.161.165.33/lineage-18.1-20210328-UNOFFICIAL-mido.zip
+      # Runs a set of commands using the runners shell
+      - name: download a file
+        run: wget http://192.161.165.33/lineage-18.1-20210328-UNOFFICIAL-mido.zip
